@@ -4,10 +4,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "start": "npm run develop",
     "build": "gatsby build",
+    "serve": "gatsby serve",
     "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "clean": "gatsby clean",
-    "proxy": "netlify-cms-proxy-server"
+    "proxy": "netlify-cms-proxy-server",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
@@ -16,6 +20,7 @@
     "gatsby-plugin-netlify-cms": "^4.1.40",
     "netlify-cms-app": "^2.11.23",
     "netlify-cms-proxy-server": "^1.1.4",
+    "prettier": "^2.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
