@@ -29,9 +29,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - run: npm run clean
-      - run: yarn format
       - run: yarn install --frozen-lockfile
+      - run: yarn clean
+      - run: yarn format
       - run: yarn build
       - run: yarn export
 
