@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: master
+  repo: mh4nx7enet/research
+  branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
