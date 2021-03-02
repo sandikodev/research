@@ -11,7 +11,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "git add .; git commit -am 'push update and deploy'; git push origin main --force"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
