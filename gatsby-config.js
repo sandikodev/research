@@ -1,33 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Geek kang kopas`,
+    name: `Kopikonfig`,
+    siteUrl: `https://research.kopikonfig.com`,
+    description: `Open Research Community that was wounded by Sandiko.R in 2018`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Landing Research Kopikonfig.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/sandiko_r`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/mh4nx7net`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/rsandi18`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.linkedin.com/in/raqhni-sandiko-16b975175/`,
       },
     ],
   },
