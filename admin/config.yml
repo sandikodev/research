@@ -1,7 +1,12 @@
 backend: # Set up your backend
-  name: gitlab
-
-local_backend: true # Optional if you want to use the local proxy mode
+name: git-gateway
+branch: main
+commit_messages:
+  create: 'Create {{collection}} “{{slug}}”'
+  update: 'Update {{collection}} “{{slug}}”'
+  delete: 'Delete {{collection}} “{{slug}}”'
+  uploadMedia: '[skip ci] Upload “{{path}}”'
+  deleteMedia: '[skip ci] Delete “{{path}}”'
 
 publish_mode: editorial_workflow
 media_folder: media    # I'm not using these default media directories at the moment.
