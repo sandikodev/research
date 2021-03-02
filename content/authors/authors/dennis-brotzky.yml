@@ -1,12 +1,8 @@
-name: Dennis Brotzky
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: ./avatars/dennis-brotzky.jpg
-social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+name: Sandiko
+bio: 'Belajar itu harus, pengetahuan bonus'
 featured: true
+avatar: avatars/Screenshot from 2020-11-25 03-58-05.png
+social:
+  - 'https://github.com/mh4nx7net'
+  - 'https://instagram.com/rsandi18'
+  - 'https://twitter.com/sandiko_r'
