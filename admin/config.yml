@@ -1,13 +1,5 @@
-backend:
-  name: git-gateway
-  repo: mh4nx7enet/research
-  branch: main
-  commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
-    uploadMedia: '[skip ci] Upload “{{path}}”'
-    deleteMedia: '[skip ci] Delete “{{path}}”'
+backend: # Set up your backend
+  name: gitlab
 
 local_backend: true # Optional if you want to use the local proxy mode
 
